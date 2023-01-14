@@ -8,8 +8,6 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>xuecheng-plus-content-model</artifactId>
-
-
 	<dependencies>
 		<dependency>
 			<groupId>com.xuecheng</groupId>
