@@ -14,11 +14,6 @@
 			<artifactId>xuecheng-plus-content-model</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<dependency>
-			<groupId>com.xuecheng</groupId>
-			<artifactId>xuecheng-plus-content-model</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 		<!-- MySQL 驱动 -->
 		<dependency>
 			<groupId>mysql</groupId>
@@ -53,4 +48,16 @@
 			<artifactId>spring-boot-starter-log4j2</artifactId>
 		</dependency>
     </dependencies>
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include>
+				</includes>
+				<filtering>false</filtering>
+			</resource>
+		</resources>
+	</build>
 </project>

@@ -1,5 +1,6 @@
 package com.xuecheng.base.model;
 
+import com.xuecheng.base.exception.CommonError;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.ToString;
@@ -31,7 +32,6 @@ public class PageParams {
     private Long pageSize = DEFAULT_PAGE_SIZE;
 
     public PageParams() {
-
     }
 
     public PageParams(long pageNo, long pageSize) {
