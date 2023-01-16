@@ -20,7 +20,7 @@ Content-Type: application/json
   "qq": "22333",
   "wechat": "223344",
   "phone": "13333333",
-  "validDays": 365,
+  "validDays": 36,
   "mt": "1-1",
   "st": "1-1-1",
   "name": "测试案例123",
@@ -56,7 +56,7 @@ Content-Type: application/json
   "description": "课程系统性地深度探讨 Spring Boot 核心特性，引导小伙伴对 Java 规范的重视，启发对技术原理性的思考，掌握排查问题的技能，以及学习阅读源码的方法和技巧，全面提升研发能力，进军架构师队伍。",
   "pic": "https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg",
   "charge": "201001",
-  "price": 22
+  "price": 100
 }
 
 ### 查询某个课程的课程计划
